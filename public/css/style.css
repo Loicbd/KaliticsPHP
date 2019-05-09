@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* *************     ----     ************* */
+
+html, body 
+{
+	margin:0;
+	padding:0;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	font-size: 1.1em;
+}
+
+a:link, a:visited, a:hover
+{
+	color: #000;
+	text-decoration: none;
+}
+
+.add {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	height: 30px;
+	width: 30px;
+	padding: 10px;
+	line-height: 30px;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 50px;
+	background-color: #89f9af;
+	z-index: 4;
+}
+
+.titleNavBar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	font-size: 30px;
+	background-color: #a1a0ff;
+	z-index: 3;
+}
+
+#content {
+	padding: 80px;
+}
+
+.vehiculeList {
+	margin: 10px;
+}
