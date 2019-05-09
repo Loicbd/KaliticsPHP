@@ -28,14 +28,6 @@ while ($donees = $vehicules->fetch()) {
 	echo "</form>";
 	echo "</div>";
 }
-/*
-$donees['idVehicule']
-$donees['couleurVehicule']
-$donees['nomMarque']
-$donees['nomType']
-$donees['idVehiculeVT']
-$donees['idTypeVT']
-*/
 ?>
 
 <?php $content = ob_get_clean(); ?>
